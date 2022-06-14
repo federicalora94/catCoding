@@ -139,7 +139,8 @@
   }
 
   p {
-    font-size: 2vw;
+    font-size: 1.7vw;
+    width: 87%;
   }
   .container {
     width: 33%;
@@ -185,7 +186,8 @@
   }
 
   p {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+    width: 90%;
   }
   .container {
     width: 25%;
