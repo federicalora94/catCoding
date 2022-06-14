@@ -1,0 +1,59 @@
+@media only screen and (min-device-width: 769px) and (max-device-width: 1300px) and (-webkit-min-device-pixel-ratio: 1) {
+  
+  header {
+    padding: 3rem;
+    padding-bottom: 0;
+
+  }
+  h1 {
+    color: var(--title);
+    font-size: 50px;
+    width: 90%;
+    margin: auto;    
+   
+  }
+
+  p{
+    color: var(--text);
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+
+
+  }
+  .container {
+    width: 50%;
+    margin: auto;
+    background-color: var(--bubble);
+    padding: 2rem;
+    border-radius: 40px;
+    line-height: 1;
+  }
+
+  .kitty {
+    position: relative;
+    top: 70px;
+    left: -60px;
+  }
+
+  img {
+    height: 100px;
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .triangleContainer {
+    padding-left: 3rem;
+  }
+  .triangle {
+    margin: auto;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid var(--laptop);
+  }
+}
+
+

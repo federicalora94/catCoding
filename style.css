@@ -1,0 +1,38 @@
+@import "catAnimation.css";
+@import "mediaQ.css";
+
+/* Variables */
+:root {
+  --body: #f9a14d;
+  --detail: #c47d3b;
+  --background: pink;
+  --title: var(--body);
+  --text: var(--laptop);
+  --laptop: gray;
+  --laptop-detail: rgb(85, 85, 85);
+  --bubble:white;
+}
+
+body {
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* contains only my logo */
+header {
+  width: 90vw;
+  margin: auto;
+}
+
+.container {
+  background-color: var(--bubble);
+  border-radius: 40px;
+}
+
+p{color:var(--text)}
+
+h1 {
+  color: var(--title);
+  line-height: 1;
+}
